@@ -2,6 +2,8 @@ using System;
 
 class Program
 {
+
+    // do not use Debug anyway will use last working version and not current version
     static void Main(string[] args)
     {
         Console.WriteLine("what is your first name? ");
