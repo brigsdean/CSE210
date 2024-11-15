@@ -9,7 +9,7 @@ class Program
 
     static void Main(string[] args)
     {
-        Console.WriteLine("Welcome to the Journal program!");
+        Console.WriteLine("here is your journal!");
         PromptGenerator promptGenerator = new PromptGenerator();
 
         bool executar = true;
