@@ -7,7 +7,8 @@ public class PromptGenerator
         _prompts = new List<string>
         {
 
-            //fill with prompts here
+            "How was work today?"
+            "did you meet anyone interesting"
 
         };
         _random = new Random();
