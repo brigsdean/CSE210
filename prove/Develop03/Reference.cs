@@ -23,7 +23,7 @@ public class Reference
         _endVerse = endVerse;
     }
 
-    public string GetDisplayText() //retorna a referencia formatada
+    public string GetDisplayText() 
     {
         if (_verse == _endVerse)
         {
