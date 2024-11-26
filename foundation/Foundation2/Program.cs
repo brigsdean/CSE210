@@ -5,8 +5,8 @@ class Program
         Address address1 = new Address("505 Main St", "Sacramento", "CA", "USA");
         Address address2 = new Address("209 Strawberry St", "London", "EN", "United Kingdom");
 
-        Customer customer1 = new Customer("Tal Smith", address1);
-        Customer customer2 = new Customer("Eve Blinder", address2);
+        Customer customer1 = new Customer("John Smith", address1);
+        Customer customer2 = new Customer("Steve Blinder", address2);
 
         Product product1 = new Product("Percy Jackson Book - Box", 412, 149.59, 1);
         Product product2 = new Product("Laptop Apple", 652, 2499.89, 1);
