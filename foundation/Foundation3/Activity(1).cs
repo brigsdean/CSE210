@@ -1,7 +1,7 @@
 public abstract class Activity
 {
     protected DateTime _date;
-    protected int _duration; // in minutes
+    protected int _duration; 
 
     public Activity(string date, int duration)
     {
@@ -15,17 +15,16 @@ public abstract class Activity
 
     public virtual double GetDistance()
     {
-        return 0.0; // Default implementation
+        return 0.0;
     }
 
     public virtual double GetSpeed()
     {
-        return 0.0; // Default implementation
+        return 0.0;
     }
-
     public virtual double GetPace()
     {
-        return 0.0; // Default implementation
+        return 0.0; 
     }
 
     public virtual string GetSummary()
